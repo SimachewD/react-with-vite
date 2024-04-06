@@ -17,7 +17,7 @@ function App() {
       <div>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Navigate to="/todos" replace />} />
+            <Route path="/react-with-vite" element={<Navigate to="/todos" replace />} />
             <Route path="/todos" element={<Navbar />}>
               <Route path="/todos" element={<TodoList />}>
                 <Route path="add" element={<AddTodo />} />
